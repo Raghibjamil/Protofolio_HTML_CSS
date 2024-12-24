@@ -33,7 +33,7 @@ While developing this project, I faced a few challenges:
 
 You can take a look at my portfolio in action by visiting the live site or by cloning the repository:
 
-Live Portfolio Link:- link-to-portfolio
+Live Portfolio Link:- https://protofolio-html-css.vercel.app/
 
 ### GitHub Repository
 
