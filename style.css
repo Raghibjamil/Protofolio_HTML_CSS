@@ -1,0 +1,264 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px; /* Adds space around the links */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+header nav ul li a:hover {
+    background-color: #555; /* Background color change on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    color: #ff0; /* Optional text color change on hover */
+}
+
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+/* Section for Projects */
+#projects {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#projects .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#projects h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Project Styling */
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project a.project-link {
+    color: #0066cc;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.project a.project-link:hover {
+    text-decoration: underline;
+}
+
+.project h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Technology Stack */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tech-stack span {
+    background-color: #e0e0e0;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Contact Section Styles */
+/* Contact Section Styles */
+#contact {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.contact-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add "..." if the text overflows */
+}
+
+.contact-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    color: #007bff;
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 15px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    #projects .container {
+        width: 95%;
+    }
+
+    #projects h2 {
+        font-size: 28px;
+    }
+
+    .project {
+        padding: 15px;
+    }
+
+    .project h3 {
+        font-size: 20px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+
+    .project a.project-link {
+        font-size: 16px;
+    }
+
+    .tech-stack span {
+        font-size: 14px;
+    }
+}
